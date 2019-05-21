@@ -10,6 +10,7 @@
 		5076BD542293C25E0062A1FC /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076BD512293C25E0062A1FC /* UserLocation.swift */; };
 		5076BD552293C25E0062A1FC /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076BD522293C25E0062A1FC /* LocationProvider.swift */; };
 		5076BD562293C25E0062A1FC /* UserLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076BD532293C25E0062A1FC /* UserLocationProvider.swift */; };
+		5076BD592293C3040062A1FC /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076BD582293C3030062A1FC /* UserLocationService.swift */; };
 		50D10D0B2292BB37002F51C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D10D0A2292BB37002F51C5 /* AppDelegate.swift */; };
 		50D10D0D2292BB37002F51C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D10D0C2292BB37002F51C5 /* ViewController.swift */; };
 		50D10D102292BB37002F51C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D10D0E2292BB37002F51C5 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		5076BD512293C25E0062A1FC /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 		5076BD522293C25E0062A1FC /* LocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		5076BD532293C25E0062A1FC /* UserLocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationProvider.swift; sourceTree = "<group>"; };
+		5076BD582293C3030062A1FC /* UserLocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
 		50D10D072292BB37002F51C5 /* ViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D10D0A2292BB37002F51C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D10D0C2292BB37002F51C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		5076BD572293C3030062A1FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5076BD582293C3030062A1FC /* UserLocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		50D10CFE2292BB37002F51C5 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				5076BD502293C25E0062A1FC /* Protocols */,
+				5076BD572293C3030062A1FC /* Services */,
 				50D10D0A2292BB37002F51C5 /* AppDelegate.swift */,
 				50D10D0C2292BB37002F51C5 /* ViewController.swift */,
 				50D10D0E2292BB37002F51C5 /* Main.storyboard */,
@@ -276,6 +287,7 @@
 				5076BD542293C25E0062A1FC /* UserLocation.swift in Sources */,
 				5076BD552293C25E0062A1FC /* LocationProvider.swift in Sources */,
 				50D10D0D2292BB37002F51C5 /* ViewController.swift in Sources */,
+				5076BD592293C3040062A1FC /* UserLocationService.swift in Sources */,
 				5076BD562293C25E0062A1FC /* UserLocationProvider.swift in Sources */,
 				50D10D0B2292BB37002F51C5 /* AppDelegate.swift in Sources */,
 			);
