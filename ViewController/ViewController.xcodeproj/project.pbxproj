@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5039A27F2294D0A700C5835F /* ViewControllerWithoutCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039A27E2294D0A700C5835F /* ViewControllerWithoutCL.swift */; };
+		5039A2832294D28600C5835F /* ViewControllerWithoutCLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039A2822294D28600C5835F /* ViewControllerWithoutCLTests.swift */; };
 		5076BD542293C25E0062A1FC /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076BD512293C25E0062A1FC /* UserLocation.swift */; };
 		5076BD552293C25E0062A1FC /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076BD522293C25E0062A1FC /* LocationProvider.swift */; };
 		5076BD562293C25E0062A1FC /* UserLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076BD532293C25E0062A1FC /* UserLocationProvider.swift */; };
 		5076BD592293C3040062A1FC /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076BD582293C3030062A1FC /* UserLocationService.swift */; };
+		50A12E992294D74E00BE1E17 /* UserLocationProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039A2802294D22D00C5835F /* UserLocationProviderMock.swift */; };
 		50D10D0B2292BB37002F51C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D10D0A2292BB37002F51C5 /* AppDelegate.swift */; };
 		50D10D0D2292BB37002F51C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D10D0C2292BB37002F51C5 /* ViewController.swift */; };
 		50D10D102292BB37002F51C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D10D0E2292BB37002F51C5 /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5039A27E2294D0A700C5835F /* ViewControllerWithoutCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithoutCL.swift; sourceTree = "<group>"; };
+		5039A2802294D22D00C5835F /* UserLocationProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationProviderMock.swift; sourceTree = "<group>"; };
+		5039A2822294D28600C5835F /* ViewControllerWithoutCLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithoutCLTests.swift; sourceTree = "<group>"; };
 		5076BD512293C25E0062A1FC /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 		5076BD522293C25E0062A1FC /* LocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		5076BD532293C25E0062A1FC /* UserLocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationProvider.swift; sourceTree = "<group>"; };
@@ -82,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5039A27D2294CEDE00C5835F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50D10D0C2292BB37002F51C5 /* ViewController.swift */,
+				5039A27E2294D0A700C5835F /* ViewControllerWithoutCL.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		5076BD502293C25E0062A1FC /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +113,14 @@
 				5076BD582293C3030062A1FC /* UserLocationService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		50A12E9A2294D75800BE1E17 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5039A2802294D22D00C5835F /* UserLocationProviderMock.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		50D10CFE2292BB37002F51C5 = {
@@ -125,8 +148,9 @@
 			children = (
 				5076BD502293C25E0062A1FC /* Protocols */,
 				5076BD572293C3030062A1FC /* Services */,
+				5039A27D2294CEDE00C5835F /* ViewControllers */,
+				50A12E9A2294D75800BE1E17 /* Mocks */,
 				50D10D0A2292BB37002F51C5 /* AppDelegate.swift */,
-				50D10D0C2292BB37002F51C5 /* ViewController.swift */,
 				50D10D0E2292BB37002F51C5 /* Main.storyboard */,
 				50D10D112292BB39002F51C5 /* Assets.xcassets */,
 				50D10D132292BB39002F51C5 /* LaunchScreen.storyboard */,
@@ -139,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				50D10D1F2292BB39002F51C5 /* ViewControllerTests.swift */,
+				5039A2822294D28600C5835F /* ViewControllerWithoutCLTests.swift */,
 				50D10D212292BB39002F51C5 /* Info.plist */,
 			);
 			path = ViewControllerTests;
@@ -286,9 +311,11 @@
 			files = (
 				5076BD542293C25E0062A1FC /* UserLocation.swift in Sources */,
 				5076BD552293C25E0062A1FC /* LocationProvider.swift in Sources */,
+				5039A27F2294D0A700C5835F /* ViewControllerWithoutCL.swift in Sources */,
 				50D10D0D2292BB37002F51C5 /* ViewController.swift in Sources */,
 				5076BD592293C3040062A1FC /* UserLocationService.swift in Sources */,
 				5076BD562293C25E0062A1FC /* UserLocationProvider.swift in Sources */,
+				50A12E992294D74E00BE1E17 /* UserLocationProviderMock.swift in Sources */,
 				50D10D0B2292BB37002F51C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D10D202292BB39002F51C5 /* ViewControllerTests.swift in Sources */,
+				5039A2832294D28600C5835F /* ViewControllerWithoutCLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
